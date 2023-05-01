@@ -1,6 +1,8 @@
 # tic-tac-toe
 
-Try it out here: [Link to TicTacToe Game](https://ubiquitous-chebakia-24042d.netlify.app/)
+Try it out: [Link to TicTacToe Game](https://ubiquitous-chebakia-24042d.netlify.app/)
+
+![WinningOptions](./img/TicTacToeGame.png)
 
 ## About
 
@@ -14,3 +16,11 @@ in a horizontal, vertical, or diagonal row is the winner.
 You can clone the repository and start the application with the Live-Server in you Visual Studio Code.
 
 ### CodeSnippets
+
+Definition of all winning options:
+
+![WinningOptions](./img/winningOptions.png)
+
+Loop through every square(tile) of the the field and check which Player has won
+
+![WinningOptions](./img/checkWin.png)
