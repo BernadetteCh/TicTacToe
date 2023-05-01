@@ -1,10 +1,60 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/f414330d1d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Tic-Tac-Toe</title>
   </head>
-  <body></body>
+  <body>
+    <main class="background">
+      <section class="title">
+        <h1>Tic Tac Toe</h1>
+      </section>
+      <section class="display">
+        Player <span class="display-player playerX">X</span>'s turn
+        <div>
+          <!--<input id="button" type="submit" name="button" value="enter" />-->
+        </div>
+      </section>
+      <section class="container">
+        <div class="tile colOne bottom-line"></div>
+        <div class="tile colTwo bottom-line"></div>
+        <div class="tile colThree bottom-line"></div>
+
+        <div class="tile colOne bottom-line"></div>
+        <div class="tile colTwo bottom-line"></div>
+        <div class="tile colThree bottom-line"></div>
+        <div class="tile colOne"></div>
+        <div class="tile colTwo"></div>
+        <div class="tile colThree"></div>
+      </section>
+      <section class="display announcer hide"></section>
+      <section class="controls">
+        <button id="reset">Reset</button>
+      </section>
+      <footer>
+        <p>
+          This project was coded by FloraFaunaMerryweather and is
+          <a
+            href="https://github.com/CodecoolGlobal/tic-tac-toe-javascript-BernadetteCh"
+            target="_blank"
+            >open-sourced on <i class="fa-brands fa-github"></i
+          ></a>
+        </p>
+      </footer>
+    </main>
+  </body>
 </html>
